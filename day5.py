@@ -15,7 +15,6 @@ def read_arg(p, pc, mode):
 
 
 def write_arg(p, pc, val, mode):
-    print(pc)
     if mode == 0:        
         p[p[pc]] = val
         print(f" > Write: {val} to pos {p[pc]} in mode {mode}")
